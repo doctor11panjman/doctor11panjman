@@ -81,9 +81,7 @@ Here are some ideas to get you started:
         
         <p style="margin-top: 15px; font-style: italic; color: #555;">Stay tuned for team updates, match schedules, and behind-the-scenes coverage as we gear up for the first ball. Let the games begin!</p>
     </div>
-<div class="container" id="gallery" style="margin-top: 20px;">
-    <h2>🏆 Achievements & Gallery</h2>
-    <div class="gallery-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px;">
+
         
         <div class="gallery-card" style="border: 1px solid #ddd; border-radius: 12px; overflow: hidden; background: white; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
             <img src="trophy1.png" alt="PSL 2026 Achievement" style="width: 100%; height: 250px; object-fit: cover;">
