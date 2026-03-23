@@ -26,6 +26,7 @@
         .star { border: 1.5px solid #25d366; background: #e9f5f2; }
 
         .footer { text-align: center; padding: 40px; color: #888; font-size: 0.9em; border-top: 1px solid #ddd; margin-top: 20px; }
+        .credit { color: #075e54; font-weight: bold; text-decoration: none; }
     </style>
 </head>
 <body>
@@ -38,8 +39,8 @@
 
 <nav>
     <a href="#squad">Full Squad</a>
-    <a href="#news">News</a>
-    <a href="#about">About Us</a>
+    <a href="#news">Announcements</a>
+    <a href="#about">Management</a>
 </nav>
 
 <div class="container" id="squad">
@@ -51,7 +52,7 @@
         </div>
         <div class="player-item star">
             <span class="player-name">Muhammad Amir</span>
-            <span class="player-role">All-Rounder</span>
+            <span class="player-role">Premium All-Rounder</span>
         </div>
         <div class="player-item">
             <span class="player-name">Huzaifa Ahmad</span>
@@ -105,20 +106,21 @@
 </div>
 
 <div class="container" id="news">
-    <h2>Announcements</h2>
-    <p><strong>Website Launch:</strong> Doctor 11 Panjman is officially online! Track our journey right here.</p>
-    <p><strong>Digital Content:</strong> Catch exclusive match footage and analysis on <strong>SH Studio</strong> YouTube.</p>
+    <h2>Latest News</h2>
+    <p><strong>Official Website:</strong> The Doctor 11 Panjman digital portal is now live! Stay updated with the latest news from the team here.</p>
+    <p><strong>Upcoming Season:</strong> Training sessions are underway in Panjman as we prepare for the 2026 local tournaments.</p>
 </div>
 
 <div class="container" id="about">
-    <h2>Team Leadership</h2>
-    <p><strong>Owned By:</strong> Dr. Tausif Ahmad</p>
-    <p><strong>Location:</strong> Panjman, Swabi, KPK</p>
-    <p>Representing our community with pride and passion on the cricket field.</p>
+    <h2>Team Management</h2>
+    <p><strong>Team Owner:</strong> Dr. Tausif Ahmad</p>
+    <p><strong>Home Location:</strong> Panjman, Swabi, KPK</p>
+    <p>Representing the sporting excellence of Panjman with pride.</p>
 </div>
 
 <div class="footer">
-    <p>&copy; 2026 Doctor 11 Panjman. Managed by SH Studio.</p>
+    <p>&copy; 2026 Doctor 11 Panjman Cricket Team.</p>
+    <p>Created by <span class="credit">Sameer Khan</span></p>
 </div>
 
 </body>
