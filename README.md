@@ -81,17 +81,21 @@ Here are some ideas to get you started:
         
         <p style="margin-top: 15px; font-style: italic; color: #555;">Stay tuned for team updates, match schedules, and behind-the-scenes coverage as we gear up for the first ball. Let the games begin!</p>
     </div>
-<div class="gallery-grid">
-    <div class="gallery-card">
-        <img src="psl1.jpg" alt="PSL 2026 Announcement">
-        <div class="gallery-caption">Official Entry into PSL 2026</div>
-    </div>
+<div class="container" id="gallery" style="margin-top: 20px;">
+    <h2>🏆 Achievements & Gallery</h2>
+    <div class="gallery-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px;">
+        
+        <div class="gallery-card" style="border: 1px solid #ddd; border-radius: 12px; overflow: hidden; background: white; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+            <img src="trophy1.png" alt="PSL 2026 Achievement" style="width: 100%; height: 250px; object-fit: cover;">
+            <div style="padding: 15px; text-align: center;">
+                <h4 style="color: #075e54; margin: 0 0 10px 0;">PSL 2026 Official Participant</h4>
+                <p style="font-size: 0.9em; color: #555; margin: 0;">Doctor 11 Panjman is a proud sponsor and participant of the 3rd Edition of the Panjman Super League.</p>
+            </div>
+        </div>
 
-    <div class="gallery-card">
-        <img src="trophy_win.jpg" alt="Winning Trophy">
-        <div class="gallery-caption">3rd Edition Sponsors</div>
     </div>
 </div>
+
 
     <h2>🏆 Achievements & Gallery</h2>
     <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px;">
