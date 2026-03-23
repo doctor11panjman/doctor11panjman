@@ -62,7 +62,27 @@ Here are some ideas to get you started:
     <a href="#news">Announcements</a>
     <a href="#about">Management</a>
 </nav>
-<div class="container" id="gallery">
+<div class="container" id="news">
+    <h2>📢 Latest Announcements</h2>
+    
+    <div style="background: #e9f5f2; padding: 25px; border-radius: 12px; border-left: 6px solid #25d366; margin-bottom: 20px; box-shadow: 0 4px 10px rgba(0,0,0,0.05);">
+        <h3 style="color: #075e54; margin-top: 0;">🏆 Doctor 11 Enters PSL 2026!</h3>
+        <p>We are thrilled to announce that <b>Doctor 11 Panjman</b> will be officially participating in the <b>Panjman Super League (PSL) 2026</b>!</p>
+        <p>As a proud sponsor for the <b>Third Edition</b> of the tournament, Doctor 11 Panjman is committed to supporting local talent and fostering the spirit of sportsmanship within our community. Get ready for an electrifying season of cricket!</p>
+        
+        <div style="background: white; padding: 15px; border-radius: 8px; border: 1px dashed #075e54; margin-top: 15px;">
+            <h4 style="margin: 0 0 10px 0; color: #075e54;">Tournament Details:</h4>
+            <ul style="list-style: none; padding: 0; margin: 0; color: #333;">
+                <li>📍 <b>Event:</b> Panjman Super League 2026</li>
+                <li>🏅 <b>Edition:</b> 3rd Edition</li>
+                <li>🤝 <b>Sponsor/Participant:</b> Doctor 11 Panjman</li>
+            </ul>
+        </div>
+        
+        <p style="margin-top: 15px; font-style: italic; color: #555;">Stay tuned for team updates, match schedules, and behind-the-scenes coverage as we gear up for the first ball. Let the games begin!</p>
+    </div>
+</div>
+id="gallery">
     <h2>🏆 Achievements & Gallery</h2>
     <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px;">
         <div style="border: 1px solid #ddd; border-radius: 10px; overflow: hidden; text-align: center;">
