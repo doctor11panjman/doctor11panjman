@@ -1,75 +1,74 @@
-## Hi there 👋
-
-<!--
-**doctor11panjman/doctor11panjman** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
-<meta name="description" content="Official website of Doctor 11 Panjman Cricket Team. Based in Swabi, owned by Dr. Tausif Ahmad, and featuring the best local talent.">
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Doctor 11 Panjman | Official Site</title>
+    <title>Doctor 11 Panjman | Official</title>
     <style>
-        body { font-family: 'Arial', sans-serif; margin: 0; background: #f4f4f4; color: #333; }
-        header { background: #075e54; color: white; padding: 40px 20px; text-align: center; }
-        nav { background: #128c7e; padding: 10px; text-align: center; position: sticky; top: 0; }
-        nav a { color: white; margin: 0 15px; text-decoration: none; font-weight: bold; }
-        .container { max-width: 1000px; margin: 20px auto; padding: 20px; background: white; border-radius: 8px; }
-        .team-card { border-left: 5px solid #075e54; padding: 15px; margin-bottom: 20px; background: #e9f5f2; }
-        .footer { text-align: center; padding: 20px; font-size: 0.9em; color: #777; }
-        .btn { background: #25d366; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin: 0; background: #f0f2f5; color: #1c1e21; }
+        header { background: linear-gradient(135deg, #075e54, #128c7e); color: white; padding: 50px 20px; text-align: center; }
+        .logo { width: 120px; height: auto; border-radius: 50%; border: 4px solid white; margin-bottom: 15px; }
+        nav { background: #054d44; padding: 12px; text-align: center; sticky: top; }
+        nav a { color: #e9f5f2; margin: 0 15px; text-decoration: none; font-weight: 600; text-transform: uppercase; font-size: 14px; }
+        .container { max-width: 900px; margin: 30px auto; padding: 25px; background: white; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); }
+        h2 { color: #075e54; border-bottom: 2px solid #25d366; padding-bottom: 8px; }
+        
+        /* Announcement Style */
+        .announcement-card { background: #fff9e6; border-left: 6px solid #ffcc00; padding: 15px; margin-bottom: 15px; border-radius: 4px; }
+        .announcement-date { font-size: 0.85em; color: #666; font-weight: bold; }
+        
+        /* Player Grid */
+        .player-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 15px; margin-top: 20px; }
+        .player-item { background: #e9f5f2; padding: 15px; border-radius: 8px; text-align: center; border: 1px solid #d1e7e3; }
+        .player-role { font-size: 0.9em; color: #555; font-style: italic; }
+        
+        .footer { text-align: center; padding: 30px; color: #888; font-size: 0.9em; }
     </style>
 </head>
 <body>
 
 <header>
+    <img src="logo.png" alt="Doctor 11 Logo" class="logo">
     <h1>DOCTOR 11 PANJMAN</h1>
-    <p>Official Team of Panjman, Swabi</p>
+    <p>The Pride of Swabi | Official Team Site</p>
 </header>
 
 <nav>
+    <a href="#news">Announcements</a>
+    <a href="#squad">Our Players</a>
     <a href="#about">About</a>
-    <a href="#squad">Squad</a>
-    <a href="#videos">Match Analysis</a>
 </nav>
 
-<div class="container" id="about">
-    <h2>About the Team</h2>
-    <p>Based in the heart of Swabi, Doctor 11 Panjman is more than just a cricket team—it's a community of athletes dedicated to the spirit of the game. Owned by <strong>Dr. Tausif Ahmad</strong>, we strive for excellence in every match.</p>
+<div class="container" id="news">
+    <h2>Latest Announcements</h2>
+    <div class="announcement-card">
+        <span class="announcement-date">March 2026</span>
+        <p><strong>Official Launch:</strong> We are excited to announce the launch of our official website and the upcoming kit reveal for the new season!</p>
+    </div>
+    <div class="announcement-card">
+        <span class="announcement-date">New Video</span>
+        <p>Check out the latest team practice highlights over at <strong>SH Studio</strong> on YouTube.</p>
+    </div>
 </div>
 
 <div class="container" id="squad">
-    <h2>Team Leadership</h2>
-    <div class="team-card">
-        <h3>Muneer Iqbal</h3>
-        <p><strong>Role:</strong> Captain & Leader</p>
-    </div>
-    <div class="team-card">
-        <h3>Muhammad Amir</h3>
-        <p><strong>Role:</strong> Premium All-Rounder</p>
-    </div>
+    <h2>The Squad</h2>
+    <div class="player-grid">
+        <div class="player-item"><strong>Muneer Iqbal</strong><br><span class="player-role">Captain</span></div>
+        <div class="player-item"><strong>Muhammad Amir</strong><br><span class="player-role">Premium All-Rounder</span></div>
+        <div class="player-item"><strong>Hazrat Ali</strong><br><span class="player-role">All-Rounder</span></div>
+        <div class="player-item"><strong>Sanan</strong><br><span class="player-role">Bowler</span></div>
+        <div class="player-item"><strong>Mugheiz</strong><br><span class="player-role">Batsman</span></div>
+        </div>
 </div>
 
-<div class="container" id="videos">
-    <h2>Watch Our Highlights</h2>
-    <p>Check out our latest match analysis and highlights on <strong>SH Studio</strong>.</p>
-    <a href="#" class="btn">Visit SH Studio YouTube</a>
+<div class="container" id="about">
+    <h2>Team Leadership</h2>
+    <p>Owned by <strong>Dr. Tausif Ahmad</strong>, Doctor 11 Panjman represents the excellence and sportsmanship of our village. We focus on discipline, hard work, and winning the hearts of our fans.</p>
 </div>
 
 <div class="footer">
-    <p>&copy; 2026 Doctor 11 Panjman. Created by Sameer Khan.</p>
+    <p>&copy; 2026 Doctor 11 Panjman. Managed by SH Studio.</p>
 </div>
 
 </body>
