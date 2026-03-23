@@ -17,7 +17,10 @@
         /* Gallery Layout */
         .gallery-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px; }
         .gallery-card { border: 1px solid #ddd; border-radius: 12px; overflow: hidden; background: white; box-shadow: 0 4px 8px rgba(0,0,0,0.1); text-align: center; }
-        .gallery-card img { width: 100%; height: 250px; object-fit: cover; background: #eee; }
+        <div class="gallery-card">
+    <img src="swabi_cup.png" alt="Swabi Cup Finalists">
+    <div class="gallery-caption">Finalists - Swabi Cup</div>
+</div
         .gallery-caption { padding: 15px; text-align: center; color: var(--primary); font-weight: bold; }
 
         /* Squad Layout */
