@@ -12,15 +12,15 @@
         nav { background: #054d44; padding: 15px; position: sticky; top: 0; z-index: 1000; display: flex; justify-content: center; flex-wrap: wrap; gap: 10px; }
         nav a { color: white; text-decoration: none; font-weight: bold; font-size: 13px; text-transform: uppercase; padding: 5px 10px; border-radius: 5px; }
         .container { max-width: 1000px; margin: 30px auto; padding: 25px; background: white; border-radius: 15px; box-shadow: 0 4px 20px rgba(0,0,0,0.08); text-align: left; }
-        h2 { color: var(--primary); border-left: 5px solid var(--accent); padding-left: 15px; margin-bottom: 20px; text-transform: uppercase; }
+        h2 { color: var(--primary); border-left: 5px solid var(--accent); padding-left: 15px; margin-bottom: 20px; text-transform: uppercase; margin-top: 0; }
         
-        /* Gallery */
+        /* Gallery Layout */
         .gallery-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px; }
-        .gallery-card { border: 1px solid #ddd; border-radius: 12px; overflow: hidden; background: white; text-align: center; }
+        .gallery-card { border: 1px solid #ddd; border-radius: 12px; overflow: hidden; background: white; box-shadow: 0 4px 8px rgba(0,0,0,0.1); text-align: center; }
         .gallery-card img { width: 100%; height: 250px; object-fit: cover; background: #eee; }
-        .gallery-caption { padding: 15px; color: var(--primary); font-weight: bold; }
+        .gallery-caption { padding: 15px; text-align: center; color: var(--primary); font-weight: bold; }
 
-        /* Squad */
+        /* Squad Layout */
         .player-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 12px; }
         .player-card { background: #f9fbf9; padding: 15px; border-radius: 10px; border: 1px solid #e0eadd; text-align: center; }
         .player-name { font-weight: bold; color: var(--primary); display: block; }
@@ -45,31 +45,30 @@
     <a href="#about">Management</a>
 </nav>
 
-<div class="container" id="news">
-    <h2>📢 Latest Announcements</h2>
-    <div style="background: #e9f5f2; padding: 20px; border-radius: 12px; border-left: 6px solid var(--accent);">
-        <h3 style="color: #075e54; margin: 0;">🏆 Doctor 11 Enters PSL 2026!</h3>
-        <p>We are participating as a sponsor and player in the <b>3rd Edition of the Panjman Super League</b>!</p>
-    </div>
-</div>
-
 <div class="container" id="gallery">
     <h2>🏆 Achievements & Gallery</h2>
     <div class="gallery-grid">
         <div class="gallery-card">
-            <img src="trophy1.png" alt="Tournament Win">
+            <img src="trophy1.png" alt="Tournament Victory">
             <div class="gallery-caption">Tournament Winners 2025</div>
         </div>
-        
         <div class="gallery-card">
-            <img src="https://via.placeholder.com/400x300?text=Finalist+Trophy" alt="Runner Up">
-            <div class="gallery-caption">Finalists - Swabi Cup</div>
+            <img src="https://via.placeholder.com/400x300?text=PSL+Sponsor" alt="PSL Sponsor">
+            <div class="gallery-caption">3rd Edition PSL Sponsor</div>
         </div>
     </div>
 </div>
 
+<div class="container" id="news">
+    <h2>📢 Latest Announcements</h2>
+    <div style="background: #e9f5f2; padding: 25px; border-radius: 12px; border-left: 6px solid var(--accent);">
+        <h3 style="color: #075e54; margin: 0;">🏆 Doctor 11 Enters PSL 2026!</h3>
+        <p>We are thrilled to participate in the <b>3rd Edition of the Panjman Super League</b> as a participant and sponsor!</p>
+    </div>
+</div>
+
 <div class="container" id="squad">
-    <h2>🏏 2026 Official Squad</h2>
+    <h2>🏏 2026 Official Squad (18 Players)</h2>
     <div class="player-grid">
         <div class="player-card captain"><span class="player-name">Muneer Iqbal</span><span>Captain</span></div>
         <div class="player-card"><span class="player-name">Muhammad Amir</span><span>All-Rounder</span></div>
