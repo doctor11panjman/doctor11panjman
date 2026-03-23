@@ -14,7 +14,11 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
-<!DOCTYPE html>
+<!DOCTYPE html><div class="gallery-card">
+    <img src="trophy1.jpg" alt="Match Victory">
+    <div class="gallery-caption">Tournament Winners 2025</div>
+</div>
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
