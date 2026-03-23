@@ -13,20 +13,18 @@
         .container { max-width: 950px; margin: 30px auto; padding: 25px; background: white; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); }
         h2 { color: #075e54; border-bottom: 2px solid #25d366; padding-bottom: 10px; margin-top: 0; }
         
-        /* Squad Grid */
         .player-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 12px; margin-top: 20px; }
         .player-item { background: #f8faf9; padding: 15px; border-radius: 10px; text-align: center; border: 1px solid #e0eadd; transition: 0.3s; }
         .player-item:hover { transform: translateY(-3px); border-color: #25d366; background: #fff; }
         .player-name { font-weight: bold; color: #075e54; font-size: 1em; display: block; }
         .player-role { font-size: 0.8em; color: #777; text-transform: uppercase; letter-spacing: 0.5px; }
         
-        /* Highlight Special Players */
         .captain { background: #075e54 !important; color: white !important; }
         .captain .player-name, .captain .player-role { color: white !important; }
         .star { border: 1.5px solid #25d366; background: #e9f5f2; }
 
         .footer { text-align: center; padding: 40px; color: #888; font-size: 0.9em; border-top: 1px solid #ddd; margin-top: 20px; }
-        .credit { color: #075e54; font-weight: bold; text-decoration: none; }
+        .credit { color: #075e54; font-weight: bold; }
     </style>
 </head>
 <body>
@@ -102,20 +100,35 @@
             <span class="player-name">Azan Khan</span>
             <span class="player-role">Player</span>
         </div>
+        <div class="player-item">
+            <span class="player-name">Baser Khan</span>
+            <span class="player-role">Player</span>
+        </div>
+        <div class="player-item">
+            <span class="player-name">Sohail Ahmad</span>
+            <span class="player-role">Player</span>
+        </div>
+        <div class="player-item">
+            <span class="player-name">Osama Khan</span>
+            <span class="player-role">Player</span>
+        </div>
+        <div class="player-item">
+            <span class="player-name">Ihtisham Khan</span>
+            <span class="player-role">Player</span>
+        </div>
     </div>
 </div>
 
 <div class="container" id="news">
     <h2>Latest News</h2>
-    <p><strong>Official Website:</strong> The Doctor 11 Panjman digital portal is now live! Stay updated with the latest news from the team here.</p>
-    <p><strong>Upcoming Season:</strong> Training sessions are underway in Panjman as we prepare for the 2026 local tournaments.</p>
+    <p><strong>Official Website:</strong> The Doctor 11 Panjman digital portal is now live!</p>
+    <p><strong>Upcoming Season:</strong> Training sessions are underway in Panjman.</p>
 </div>
 
 <div class="container" id="about">
     <h2>Team Management</h2>
     <p><strong>Team Owner:</strong> Dr. Tausif Ahmad</p>
     <p><strong>Home Location:</strong> Panjman, Swabi, KPK</p>
-    <p>Representing the sporting excellence of Panjman with pride.</p>
 </div>
 
 <div class="footer">
