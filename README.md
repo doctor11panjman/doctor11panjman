@@ -81,8 +81,18 @@ Here are some ideas to get you started:
         
         <p style="margin-top: 15px; font-style: italic; color: #555;">Stay tuned for team updates, match schedules, and behind-the-scenes coverage as we gear up for the first ball. Let the games begin!</p>
     </div>
+<div class="gallery-grid">
+    <div class="gallery-card">
+        <img src="psl1.jpg" alt="PSL 2026 Announcement">
+        <div class="gallery-caption">Official Entry into PSL 2026</div>
+    </div>
+
+    <div class="gallery-card">
+        <img src="trophy_win.jpg" alt="Winning Trophy">
+        <div class="gallery-caption">3rd Edition Sponsors</div>
+    </div>
 </div>
-id="gallery">
+
     <h2>🏆 Achievements & Gallery</h2>
     <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px;">
         <div style="border: 1px solid #ddd; border-radius: 10px; overflow: hidden; text-align: center;">
