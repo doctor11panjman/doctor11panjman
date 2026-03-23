@@ -55,7 +55,25 @@ Here are some ideas to get you started:
     <a href="#squad">Full Squad</a>
     <a href="#news">Announcements</a>
     <a href="#about">Management</a>
+<nav>
+    <a href="#gallery">Achievements</a>
+    <a href="#squad">Squad</a>
+    <a href="#news">Announcements</a>
+    <a href="#about">Management</a>
 </nav>
+<div class="container" id="gallery">
+    <h2>🏆 Achievements & Gallery</h2>
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px;">
+        <div style="border: 1px solid #ddd; border-radius: 10px; overflow: hidden; text-align: center;">
+            <img src="trophy1.jpg" alt="Victory" style="width: 100%; height: 200px; object-fit: cover;" onerror="this.src='https://via.placeholder.com/400x300?text=Match+Photo'">
+            <p style="padding: 10px; font-weight: bold; color: #075e54;">Tournament Winners 2025</p>
+        </div>
+        <div style="border: 1px solid #ddd; border-radius: 10px; overflow: hidden; text-align: center;">
+            <img src="trophy2.jpg" alt="Team" style="width: 100%; height: 200px; object-fit: cover;" onerror="this.src='https://via.placeholder.com/400x300?text=Team+Photo'">
+            <p style="padding: 10px; font-weight: bold; color: #075e54;">Finalists - Swabi Cup</p>
+        </div>
+    </div>
+</div>
 
 <div class="container" id="squad">
     <h2>2026 Official Squad</h2>
@@ -154,3 +172,4 @@ Here are some ideas to get you started:
 
 </body>
 </html>
+
