@@ -151,11 +151,16 @@
         <p>Official Cricket Team | Panjman, Swabi</p>
     </header>
 
-    <div class="match-alert">
+        <div class="match-alert">
         <h2>🔥 THE GRAND FINAL 🔥</h2>
         <span class="match-vs">DOCTOR 11 PANJMAN vs QADRA</span>
-        <div class="match-meta">Coming Soon • Panjman Cricket Ground • 2026 Season</div>
+        <div class="match-meta">
+            <strong>📅 Date:</strong> 27 March 2026 (Friday) <br>
+            <strong>⏰ Time:</strong> 2:30 PM <br>
+            <strong>📍 Venue:</strong> Panjman Cricket Ground
+        </div>
     </div>
+    
 
     <div class="stats-bar">
         <div class="stat-item">
@@ -229,7 +234,34 @@
     </section>
 
     <footer>
-        <p>© 2026 Doctor 11 Panjman Cricket Club</p>
+        <p>© 2026 Doctor 11 Panjman Cricket Club</p>    <section id="contact">
+        <h2>📞 CONTACT US</h2>
+        <div class="contact-container">
+            <div class="contact-info">
+                <div class="contact-card">
+                    <p><strong>Official Inquiries:</strong></p>
+                    <p>Contact Media Director Sameer Khan or Team Owner Dr. Tauseef Ahmed for match invites or sponsorships.</p>
+                </div>
+                <div class="contact-method">
+                    <span>📍 Venue:</span> Panjman, Swabi, KPK
+                </div>
+                <div class="contact-method">
+                    <span>✉️ Email:</span> asameerkhan352@gmail.com
+                </div>
+                <div class="contact-method">
+                    <span>💬 WhatsApp:</span> Click to Chat
+                </div>
+            </div>
+
+            <form class="contact-form">
+                <input type="text" placeholder=Sameer Khan required>
+                <input type="email" placeholder="asameerkhan352@gmail.com" required>
+                <textarea placeholder="Your Message (e.g., Match Invite or Feedback)" rows="4" required></textarea>
+                <button type="submit">SEND MESSAGE</button>
+            </form>
+        </div>
+    </section>
+    
         <div class="social-links">
             <a href="#">Facebook</a> | <a href="#">WhatsApp</a> | <a href="#">SH Studio</a>
         </div>
