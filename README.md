@@ -249,7 +249,7 @@
                     <span>✉️ Email:</span> asameerkhan352@gmail.com
                 </div>
                 <div class="contact-method">
-                    <span>💬 WhatsApp:</span> Click to Chat
+                    <span>💬 WhatsApp:</span> 03429212247
                 </div>
             </div>
 
