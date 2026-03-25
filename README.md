@@ -77,10 +77,8 @@
         <div class="player-card"><span class="player-name">Haris Iqbal</span><span>Player</span></div>
         <div class="player-card"><span class="player-name">Behram Khan</span><span>Player</span></div>
         <div class="player-card"><span class="player-name">Shakeel Ahmad</span><span>Player</span></div>
-        <div class="player-card"><span class="player-name">Raheel Khan</span><span>Player</span></div>
         <div class="player-card"><span class="player-name">Waqar Khan</span><span>Player</span></div>
         <div class="player-card"><span class="player-name">Saqib Shah</span><span>Player</span></div>
-        <div class="player-card"><span class="player-name">Munsif Khan</span><span>Player</span></div>
         <div class="player-card"><span class="player-name">Abubakar</span><span>Player</span></div>
         <div class="player-card"><span class="player-name">Shehbaz</span><span>Player</span></div>
         <div class="player-card"><span class="player-name">Azan Khan</span><span>Player</span></div>
