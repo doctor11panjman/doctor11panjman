@@ -111,6 +111,7 @@
         <div class="player-card"><span class="player-name">Ihtisham Khan</span><span>Player</span></div>
     </div>
 <div class="container" id="management">
+<div class="container" id="management">
     <h2>🤝 Team Leadership & Contact</h2>
     
     <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; margin-bottom: 30px;">
@@ -128,29 +129,30 @@
         </div>
     </div>
 
-    <div style="background: #075e54; color: white; padding: 30px; border-radius: 15px; text-align: center; box-shadow: 0 10px 25px rgba(7,94,84,0.2);">
-        <h3 style="margin-top: 0; font-size: 1.5em;">📩 Get In Touch</h3>
-        <p style="margin-bottom: 25px; opacity: 0.9;">For match inquiries, trials, or media collaborations in Panjman, reach out to us:</p>
+    <div style="background: #075e54; color: white; padding: 35px; border-radius: 15px; text-align: center; box-shadow: 0 10px 25px rgba(7,94,84,0.2);">
+        <h3 style="margin-top: 0; font-size: 1.5em; letter-spacing: 1px;">📩 CONNECT WITH US</h3>
+        <p style="margin-bottom: 25px; opacity: 0.9;">Official contact for Doctor 11 Panjman inquiries and SH Studio media.</p>
         
         <div style="display: flex; justify-content: center; flex-wrap: wrap; gap: 15px;">
-            <a href="https://wa.me/923429212247" target="_blank" style="text-decoration: none; display: flex; align-items: center; background: #25d366; color: white; padding: 12px 25px; border-radius: 50px; font-weight: bold; transition: 0.3s;">
-                WhatsApp Us
+            <a href="https://wa.me/923429212247" target="_blank" style="text-decoration: none; background: #25d366; color: white; padding: 12px 25px; border-radius: 50px; font-weight: bold; font-size: 0.9em; transition: 0.3s; border: 2px solid #25d366;">
+                WhatsApp
             </a>
             
-            <a href="mailto:asameerkhan352@gmail.com" style="text-decoration: none; display: flex; align-items: center; background: white; color: #075e54; padding: 12px 25px; border-radius: 50px; font-weight: bold; transition: 0.3s;">
+            <a href="mailto:asameerkhan352@gmail.com" style="text-decoration: none; background: white; color: #075e54; padding: 12px 25px; border-radius: 50px; font-weight: bold; font-size: 0.9em; transition: 0.3s; border: 2px solid white;">
                 Email Team
             </a>
 
-            <a href="https://www.youtube.com/@SHStudio" target="_blank" style="text-decoration: none; display: flex; align-items: center; background: #ff0000; color: white; padding: 12px 25px; border-radius: 50px; font-weight: bold; transition: 0.3s;">
-                SH Studio
+            <a href="https://youtube.com/@sh-studio_official?si=smcbPjsf45GtuZPy" target="_blank" style="text-decoration: none; background: #ff0000; color: white; padding: 12px 25px; border-radius: 50px; font-weight: bold; font-size: 0.9em; transition: 0.3s; border: 2px solid #ff0000;">
+                SH Studio YouTube
             </a>
         </div>
         
-        <p style="margin-top: 25px; font-size: 0.85em; color: #a5d6a7;">
-            📍 Location: Panjman, Swabi, KPK, Pakistan
+        <p style="margin-top: 25px; font-size: 0.8em; color: #a5d6a7; border-top: 1px solid rgba(255,255,255,0.1); padding-top: 15px;">
+            📍 Panjman, Swabi, Khyber Pakhtunkhwa, Pakistan
         </p>
     </div>
 </div>
+
 
 <div class="footer">
     <p>&copy; 2026 Doctor 11 Panjman | Built by Sameer Khan</p>
