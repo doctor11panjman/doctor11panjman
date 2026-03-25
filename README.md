@@ -58,6 +58,29 @@
         </div>
     </div>
 </div>
+<div class="container" id="news">
+    <h2>📢 Latest Announcements</h2>
+    
+    <div style="background: #e9f5f2; padding: 25px; border-radius: 12px; border-left: 6px solid #25d366; margin-bottom: 20px; box-shadow: 0 4px 10px rgba(0,0,0,0.05);">
+        <h3 style="color: #075e54; margin-top: 0; text-align: center;">🏏 FINAL MATCH: DOCTOR 11 vs QADRA</h3>
+        <p style="text-align: center; font-size: 1.2em; font-weight: bold; color: #054d44;">ڈاکٹر 11 پنجمن بہ مقابلہ قدرہ</p>
+        
+        <div style="background: white; padding: 15px; border-radius: 8px; border: 1px dashed #075e54; margin-top: 15px;">
+            <ul style="list-style: none; padding: 0; margin: 0; color: #333; line-height: 2;">
+                <li>📅 <b>Day:</b> Friday (جمعہ)</li>
+                <li>⏰ <b>Time:</b> 2:30 PM (ڈھائی بجے)</li>
+                <li>📍 <b>Venue:</b> Qadra Cricket Ground (قدرہ کرکٹ گراؤنڈ)</li>
+            </ul>
+        </div>
+        
+        <p style="margin-top: 20px; text-align: center; font-weight: bold; color: #075e54;">
+            ہم اپنے معزز مہمانوں اور شائقینِ کرکٹ کا صمیمِ قلب سے خیر مقدم کرتے ہیں۔ آپ سب کی شرکت ہمارے لیے اعزاز کی بات ہوگی۔
+        </p>
+        <p style="text-align: center; font-style: italic; color: #555;">
+            We warmly welcome all cricket fans and look forward to your gracious presence!
+        </p>
+    </div>
+</div>
 
 <div class="container" id="news">
     <h2>📢 Latest Announcements</h2>
