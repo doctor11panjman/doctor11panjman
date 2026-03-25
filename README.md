@@ -157,7 +157,7 @@
         <div class="match-meta">
             <strong>📅 Date:</strong> 27 March 2026 (Friday) <br>
             <strong>⏰ Time:</strong> 2:30 PM <br>
-            <strong>📍 Venue:</strong> Panjman Cricket Ground
+            <strong>📍 Venue:</strong> Qadra Cricket Ground
         </div>
     </div>
     
