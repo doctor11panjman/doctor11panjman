@@ -265,6 +265,42 @@
         <div class="social-links">
             <a href="#">Facebook</a> | <a href="#">WhatsApp</a> | <a href="#">SH Studio</a>
         </div>
+            <section id="links">
+        <h2>🔗 OFFICIAL LINKS</h2>
+        <div class="links-container">
+            <a href="https://wa.me/YOURNUMBER" class="link-box whatsapp">
+                <div class="link-icon">📱</div>
+                <div class="link-text">
+                    <strong>Join WhatsApp</strong>
+                    <span>Get Match Updates</span>
+                </div>
+            </a>
+
+            <a href="#" class="link-box facebook">
+                <div class="link-icon">👥</div>
+                <div class="link-text">
+                    <strong>Facebook Page</strong>
+                    <span>Follow Doctor 11</span>
+                </div>
+            </a>
+
+            <a href="#" class="link-box studio">
+                <div class="link-icon">🎬</div>
+                <div class="link-text">
+                    <strong>SH Studio</strong>
+                    <span>Match Highlights</span>
+                </div>
+            </a>
+
+            <a href="https://maps.google.com" class="link-box maps">
+                <div class="link-icon">📍</div>
+                <div class="link-text">
+                    <strong>Ground Location</strong>
+                    <span>Panjman, Swabi</span>
+                </div>
+            </a>
+        </div>
+    </section>
     </footer>
 
 </div>
