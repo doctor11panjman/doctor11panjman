@@ -110,14 +110,45 @@
         <div class="player-card"><span class="player-name">Osama Khan</span><span>Player</span></div>
         <div class="player-card"><span class="player-name">Ihtisham Khan</span><span>Player</span></div>
     </div>
-</div>
-
 <div class="container" id="management">
-    <h2>🤝 Team Management</h2>
-    <div style="background: #f9fbf9; padding: 20px; border-radius: 10px; border: 1px solid #ddd;">
-        <p><strong>Team Owner:</strong> Dr. Tausif Ahmad</p>
-        <p><strong>Home Location:</strong> Panjman, Swabi, KPK</p>
-        <p>Supporting local talent and excellence in cricket.</p>
+    <h2>🤝 Team Leadership & Contact</h2>
+    
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; margin-bottom: 30px;">
+        
+        <div style="background: #f9fbf9; padding: 20px; border-radius: 12px; border: 1px solid #e0eadd; text-align: center;">
+            <h4 style="margin: 0; color: #075e54;">Dr. Tausif Ahmad</h4>
+            <p style="margin: 5px 0; font-size: 0.9em; color: #666; font-weight: bold;">Team Owner</p>
+            <p style="font-size: 0.85em; color: #555;">Founder and Lead Supporter of Doctor 11 Panjman.</p>
+        </div>
+
+        <div style="background: #e9f5f2; padding: 20px; border-radius: 12px; border: 2px solid #25d366; text-align: center;">
+            <h4 style="margin: 0; color: #075e54;">Sameer Khan</h4>
+            <p style="margin: 5px 0; font-size: 0.9em; color: #128c7e; font-weight: bold;">Media Director & Web Developer</p>
+            <p style="font-size: 0.85em; color: #555;">Managing digital presence and SH Studio productions.</p>
+        </div>
+    </div>
+
+    <div style="background: #075e54; color: white; padding: 30px; border-radius: 15px; text-align: center; box-shadow: 0 10px 25px rgba(7,94,84,0.2);">
+        <h3 style="margin-top: 0; font-size: 1.5em;">📩 Get In Touch</h3>
+        <p style="margin-bottom: 25px; opacity: 0.9;">For match inquiries, trials, or media collaborations in Panjman, reach out to us:</p>
+        
+        <div style="display: flex; justify-content: center; flex-wrap: wrap; gap: 15px;">
+            <a href="https://wa.me/923429212247" target="_blank" style="text-decoration: none; display: flex; align-items: center; background: #25d366; color: white; padding: 12px 25px; border-radius: 50px; font-weight: bold; transition: 0.3s;">
+                WhatsApp Us
+            </a>
+            
+            <a href="mailto:asameerkhan352@gmail.com" style="text-decoration: none; display: flex; align-items: center; background: white; color: #075e54; padding: 12px 25px; border-radius: 50px; font-weight: bold; transition: 0.3s;">
+                Email Team
+            </a>
+
+            <a href="https://www.youtube.com/@SHStudio" target="_blank" style="text-decoration: none; display: flex; align-items: center; background: #ff0000; color: white; padding: 12px 25px; border-radius: 50px; font-weight: bold; transition: 0.3s;">
+                SH Studio
+            </a>
+        </div>
+        
+        <p style="margin-top: 25px; font-size: 0.85em; color: #a5d6a7;">
+            📍 Location: Panjman, Swabi, KPK, Pakistan
+        </p>
     </div>
 </div>
 
