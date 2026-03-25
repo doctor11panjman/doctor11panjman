@@ -36,19 +36,7 @@
         .captain .player-name { color: white !important; }
 
         .footer { padding: 50px; text-align: center; color: #888; border-top: 1px solid #eee; margin-top: 50px; }
-        .hero {
-    background-color: #064e3b; /* A deep, professional green */
-    width: 100%;
-    min-height: 300px;         /* Ensures it has enough height */
-    margin: 0;
-    padding: 40px 20px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    box-sizing: border-box;
-}
-
+    
 </head>
 <body>
 
