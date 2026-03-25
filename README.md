@@ -8,32 +8,30 @@
         :root {
             --main-green: #064e3b;
             --light-green: #065f46;
-            --accent-gold: #fbbf24;
             --white: #ffffff;
-            --bg-gray: #f1f5f9;
+            --bg-gray: #f8fafc;
         }
-        body { margin: 0; font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; background-color: var(--bg-gray); color: #1e293b; line-height: 1.6; }
+        body { margin: 0; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background-color: var(--bg-gray); color: #333; line-height: 1.6; }
         
         /* FIX: FULL WIDTH GREEN HEADER */
         .hero-section {
             background: linear-gradient(135deg, var(--main-green) 0%, var(--light-green) 100%);
             color: var(--white);
-            padding: 50px 20px;
+            padding: 60px 20px;
             text-align: center;
             width: 100%;
             box-sizing: border-box;
-            border-bottom: 5px solid var(--accent-gold);
+            border-bottom: 5px solid #fbbf24;
         }
         .hero-section img {
-            width: 120px;
-            height: 120px;
+            width: 130px;
+            height: 130px;
             border-radius: 50%;
             border: 4px solid var(--white);
             margin-bottom: 15px;
-            background-color: white;
             object-fit: cover;
+            background-color: white;
         }
-
         .nav-bar {
             background: #043d2e;
             position: sticky;
@@ -45,67 +43,91 @@
             gap: 20px;
             flex-wrap: wrap;
         }
-        .nav-bar a { color: white; text-decoration: none; font-weight: 600; font-size: 13px; text-transform: uppercase; }
-
-        .announcement-banner {
-            background: var(--accent-gold);
-            color: #000;
-            padding: 15px;
-            text-align: center;
-            font-weight: bold;
-            margin: 20px auto;
-            max-width: 900px;
-            border-radius: 8px;
-            border: 2px dashed var(--main-green);
-        }
-
-        .container { max-width: 1100px; margin: 0 auto; padding: 20px; }
-        .section-header { border-left: 6px solid var(--main-green); padding-left: 15px; margin: 40px 0 20px; color: var(--main-green); font-size: 22px; text-transform: uppercase; }
-
-        .grid-layout { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px; }
-        .card { background: white; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 6px rgba(0,0,0,0.05); text-align: center; padding: 20px; }
+        .nav-bar a { color: white; text-decoration: none; font-weight: 600; font-size: 14px; text-transform: uppercase; }
         
-        .player-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 12px; }
-        .player-card { background: white; padding: 15px; border-radius: 8px; text-align: center; border-bottom: 3px solid var(--main-green); }
-
-        .footer-info { background: #e2e8f0; padding: 30px 20px; text-align: center; margin-top: 50px; border-top: 1px solid #cbd5e1; }
-        .footer-info a { color: var(--main-green); text-decoration: none; font-weight: bold; margin: 0 10px; }
-
-        .whatsapp-btn { position: fixed; bottom: 20px; right: 20px; background: #25d366; width: 60px; height: 60px; border-radius: 50%; display: flex; align-items: center; justify-content: center; box-shadow: 0 4px 10px rgba(0,0,0,0.3); z-index: 999; }
+        .main-container { max-width: 1100px; margin: 0 auto; padding: 20px; }
+        .section-header { border-left: 6px solid var(--main-green); padding-left: 15px; margin: 40px 0 20px; color: var(--main-green); font-size: 24px; text-transform: uppercase; }
+        
+        /* CARDS & GRID */
+        .grid-layout { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px; }
+        .card { background: white; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 15px rgba(0,0,0,0.1); transition: 0.3s; }
+        .card:hover { transform: translateY(-5px); }
+        .card-img { width: 100%; height: 200px; object-fit: cover; }
+        .card-content { padding: 15px; text-align: center; }
+        
+        .player-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(160px, 1fr)); gap: 15px; }
+        .player-card { background: white; padding: 20px; border-radius: 10px; text-align: center; border-bottom: 3px solid var(--main-green); }
+        
+        /* WHATSAPP */
+        .whatsapp-btn { position: fixed; bottom: 25px; right: 25px; background: #25d366; width: 65px; height: 65px; border-radius: 50%; display: flex; align-items: center; justify-content: center; box-shadow: 0 4px 12px rgba(0,0,0,0.3); z-index: 9999; }
     </style>
 </head>
 <body>
 
-    <header class="hero-section">
-        <img src="logo.png" alt="Doctor 11 Logo">
-        <h1>DOCTOR 11 PANJMAN</h1>
+    <section class="hero-section">
+        <img src="logo.png" alt="Doctor 11 Logo"> <h1>DOCTOR 11 PANJMAN</h1>
         <p>Official Cricket Team | Panjman, Swabi</p>
-    </header>
+    </section>
 
     <nav class="nav-bar">
-        <a href="#news">Latest News</a>
+        <a href="#achievements">Achievements</a>
         <a href="#squad">Squad</a>
         <a href="#management">Management</a>
-        <a href="https://www.youtube.com/@SH-Studio_Official" target="_blank">YouTube</a>
+        <a href="#announcements">Announcements</a>
     </nav>
 
-    <div class="container">
+    <div class="main-container">
         
-        <h2 id="news" class="section-header">📢 Latest Announcement</h2>
-        <div class="announcement-banner">
-            🏏 FINAL MATCH: Doctor 11 Panjman vs Qadra <br>
-            📅 Friday | 🕒 2:30 PM <br>
-            📍 Venue: Qadra Cricket Ground
+        <h2 id="achievements" class="section-header">🏆 Achievements & Gallery</h2>
+        <div class="grid-layout">
+            <div class="card">
+                <img src="tournament_win.jpg" class="card-img" alt="Trophy">
+                <div class="card-content"><h3>Tournament Winners 2025</h3><p>Victory in the Panjman Championship</p></div>
+            </div>
+            <div class="card">
+                <img src="finalists.jpg" class="card-img" alt="Finalists">
+                <div class="card-content"><h3>Finalists - Swabi Cup</h3><p>Runner up in the district tournament</p></div>
+            </div>
         </div>
 
-        <h2 id="management" class="section-header">👔 Team Management</h2>
+        <h2 id="management" class="section-header">👔 Management</h2>
         <div class="grid-layout">
-            <div class="card"><h3>Dr. Tauseef Ahmed</h3><p>Team Owner & Chairman</p></div>
-            <div class="card"><h3>Muneer Iqbal</h3><p>Team Captain</p></div>
-            <div class="card"><h3>Samir Khan</h3><p>Media Director</p></div>
+            <div class="card" style="border-top: 5px solid gold;">
+                <div class="card-content">
+                    <h3>Dr. Tauseef Ahmed</h3>
+                    <p><strong>Team Owner & Chairman</strong></p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-content">
+                    <h3>Muneer Iqbal</h3>
+                    <p><strong>Team Captain</strong></p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-content">
+                    <h3>Samir Khan</h3>
+                    <p><strong>Media Director</strong></p>
+                </div>
+            </div>
         </div>
 
         <h2 id="squad" class="section-header">🏏 Official Squad</h2>
         <div class="player-grid">
-            <div class="player-card"><h3>Muhammad Amir</h3><p>All-Round
-            
+            <div class="player-card"><h3>Muhammad Amir</h3><p>All-Rounder</p></div>
+            <div class="player-card"><h3>Muhammad Huzaifa</h3><p>Batsman</p></div>
+            <div class="player-card"><h3>Saqib Shah</h3><p>Bowler</p></div>
+            <div class="player-card"><h3>Adnan</h3><p>Batsman</p></div>
+            <div class="player-card"><h3>Sanan</h3><p>All-Rounder</p></div>
+            <div class="player-card"><h3>Mugheiz</h3><p>Batsman</p></div>
+            <div class="player-card"><h3>Hazrat Ali</h3><p>Batsman</p></div>
+        </div>
+
+    </div>
+
+    <a href="https://wa.me/92XXXXXXXXXX" class="whatsapp-btn">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" width="40" alt="WhatsApp">
+    </a>
+
+</body>
+</html>
