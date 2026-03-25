@@ -227,7 +227,7 @@
                 <p>Owner & Chairman</p>
             </div>
             <div class="player-card management-card">
-                <h3>Samir Khan</h3>
+                <h3>Sameer Khan</h3>
                 <p>Media Director</p>
             </div>
         </div>
@@ -254,8 +254,8 @@
             </div>
 
             <form class="contact-form">
-                <input type="text" placeholder=Sameer Khan required>
-                <input type="email" placeholder="asameerkhan352@gmail.com" required>
+                <input type="text" placeholder="Your name " required>
+                <input type="email" placeholder="Yout Email" required>
                 <textarea placeholder="Your Message (e.g., Match Invite or Feedback)" rows="4" required></textarea>
                 <button type="submit">SEND MESSAGE</button>
             </form>
