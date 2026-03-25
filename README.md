@@ -268,7 +268,7 @@
             <section id="links">
         <h2>🔗 OFFICIAL LINKS</h2>
         <div class="links-container">
-            <a href="https://wa.me/YOURNUMBER" class="link-box whatsapp">
+            <a href="Follow the Doctor 11 Panjman channel on WhatsApp: https://whatsapp.com/channel/0029VbBxC9Z90x32dKQXBu1B" class="link-box whatsapp">
                 <div class="link-icon">📱</div>
                 <div class="link-text">
                     <strong>Join WhatsApp</strong>
@@ -278,7 +278,7 @@
 
             <a href="#" class="link-box facebook">
                 <div class="link-icon">👥</div>
-                <div class="link-text">
+                <div class="https://www.facebook.com/share/1HaB7743Tu/">
                     <strong>Facebook Page</strong>
                     <span>Follow Doctor 11</span>
                 </div>
@@ -286,7 +286,7 @@
 
             <a href="#" class="link-box studio">
                 <div class="link-icon">🎬</div>
-                <div class="link-text">
+                <div class="https://www.youtube.com/@SH-Studio_Official">
                     <strong>SH Studio</strong>
                     <span>Match Highlights</span>
                 </div>
