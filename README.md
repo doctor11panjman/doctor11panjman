@@ -7,7 +7,15 @@
     <style>
         :root { --primary: #075e54; --secondary: #128c7e; --accent: #25d366; --light: #f0f2f5; }
         body { font-family: 'Segoe UI', sans-serif; margin: 0; background: var(--light); color: #1c1e21; scroll-behavior: smooth; text-align: center; }
-        header { background: linear-gradient(135deg, var(--primary), var(--secondary)); color: white; padding: 60px 20px; }
+        .hero {
+    background: linear-gradient(135deg, #064e3b 0%, #065f46 100%);
+    color: white;
+    padding: 60px 20px;
+    text-align: center;
+    width: 100%;             /* Add this line */
+    box-sizing: border-box;  /* Add this line */
+    margin: 0;               /* Add this line */
+}
         .team-logo { width: 120px; height: 120px; border-radius: 50%; border: 4px solid white; background: white; margin: 0 auto 15px; display: block; object-fit: cover; }
         nav { background: #054d44; padding: 15px; position: sticky; top: 0; z-index: 1000; display: flex; justify-content: center; flex-wrap: wrap; gap: 10px; }
         nav a { color: white; text-decoration: none; font-weight: bold; font-size: 13px; text-transform: uppercase; padding: 5px 10px; border-radius: 5px; }
