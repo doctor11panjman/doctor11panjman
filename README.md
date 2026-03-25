@@ -131,3 +131,9 @@
 
 </body>
 </html>
+<a href="https://www.youtube.com/@SH-Studio_Official" target="_blank">Subscribe to SH-Studio 🎙️</a>
+
+<a href="https://wa.me/923429212247">Chat on WhatsApp</a>
+
+<a href="mailto:asameerkhan352@gmail.com">Send an Email</a>
+
