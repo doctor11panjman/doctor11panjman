@@ -3,137 +3,197 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Doctor 11 Panjman | Official Site</title>
+    <title>Doctor 11 Panjman | Official Website</title>
     <style>
         :root {
-            --main-green: #064e3b;
-            --light-green: #065f46;
+            --main-green: #004d40;
+            --accent-gold: #ffd700;
+            --light-bg: #f4f7f6;
             --white: #ffffff;
-            --bg-gray: #f8fafc;
+            --danger: #d32f2f;
         }
-        body { margin: 0; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background-color: var(--bg-gray); color: #333; line-height: 1.6; }
-        
-        /* FIX: FULL WIDTH GREEN HEADER */
-        .hero-section {
-            background: linear-gradient(135deg, var(--main-green) 0%, var(--light-green) 100%);
+
+        body {
+            font-family: 'Segoe UI', Arial, sans-serif;
+            background-color: var(--light-bg);
+            margin: 0;
+            padding: 15px;
+            color: #333;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: auto;
+            background: var(--white);
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+        }
+
+        /* Header */
+        header {
+            background-color: var(--main-green);
             color: var(--white);
-            padding: 60px 20px;
             text-align: center;
-            width: 100%;
-            box-sizing: border-box;
-            border-bottom: 5px solid #fbbf24;
+            padding: 40px 20px;
+            border-radius: 8px;
+            margin-bottom: 20px;
         }
-        .hero-section img {
-            width: 130px;
-            height: 130px;
-            border-radius: 50%;
-            border: 4px solid var(--white);
-            margin-bottom: 15px;
-            object-fit: cover;
-            background-color: white;
+
+        header img { width: 90px; border-radius: 50%; border: 3px solid var(--white); margin-bottom: 10px; }
+        header h1 { margin: 5px 0; font-size: 1.8rem; }
+
+        /* Announcement Banner */
+        .announcement-banner {
+            background: linear-gradient(45deg, #1a237e, #0d47a1);
+            color: white;
+            padding: 20px;
+            border-radius: 8px;
+            text-align: center;
+            margin-bottom: 30px;
+            border-bottom: 4px solid var(--accent-gold);
         }
-        .nav-bar {
-            background: #043d2e;
-            position: sticky;
-            top: 0;
-            z-index: 1000;
-            display: flex;
-            justify-content: center;
-            padding: 12px;
+
+        .announcement-banner h2 { 
+            color: var(--accent-gold); 
+            border: none; 
+            margin: 0; 
+            padding: 0;
+            font-size: 1.5rem;
+        }
+
+        .match-details {
+            font-size: 1.2rem;
+            font-weight: bold;
+            margin: 10px 0;
+            display: block;
+        }
+
+        /* Section Headings */
+        h2 {
+            color: var(--main-green);
+            border-left: 5px solid var(--main-green);
+            padding-left: 15px;
+            margin: 40px 0 20px 0;
+            font-size: 1.3rem;
+            text-transform: uppercase;
+        }
+
+        /* Grids */
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(170px, 1fr));
+            gap: 15px;
+        }
+
+        .card {
+            background: #fff;
+            border: 1px solid #eee;
+            border-radius: 10px;
+            padding: 15px;
+            text-align: center;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.03);
+        }
+
+        /* Achievement Styles */
+        .achievement-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
             gap: 20px;
-            flex-wrap: wrap;
         }
-        .nav-bar a { color: white; text-decoration: none; font-weight: 600; font-size: 14px; text-transform: uppercase; }
-        
-        .main-container { max-width: 1100px; margin: 0 auto; padding: 20px; }
-        .section-header { border-left: 6px solid var(--main-green); padding-left: 15px; margin: 40px 0 20px; color: var(--main-green); font-size: 24px; text-transform: uppercase; }
-        
-        /* CARDS & GRID */
-        .grid-layout { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px; }
-        .card { background: white; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 15px rgba(0,0,0,0.1); transition: 0.3s; }
-        .card:hover { transform: translateY(-5px); }
-        .card-img { width: 100%; height: 200px; object-fit: cover; }
-        .card-content { padding: 15px; text-align: center; }
-        
-        .player-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(160px, 1fr)); gap: 15px; }
-        .player-card { background: white; padding: 20px; border-radius: 10px; text-align: center; border-bottom: 3px solid var(--main-green); }
-        
-        /* WHATSAPP */
-        .whatsapp-btn { position: fixed; bottom: 25px; right: 25px; background: #25d366; width: 65px; height: 65px; border-radius: 50%; display: flex; align-items: center; justify-content: center; box-shadow: 0 4px 12px rgba(0,0,0,0.3); z-index: 9999; }
+
+        .achievement-card img {
+            width: 100%;
+            height: 180px;
+            object-fit: cover;
+            border-radius: 6px;
+            margin-bottom: 10px;
+        }
+
+        .champion-tag {
+            background: #fff8e1;
+            border: 2px solid var(--accent-gold);
+        }
+
+        /* Special Roles */
+        .captain-card { background-color: var(--main-green); color: white; }
+        .captain-card h3, .captain-card p { color: white; }
+        .owner-card { border: 2px solid var(--accent-gold); }
+
+        @media (max-width: 600px) {
+            .grid { grid-template-columns: repeat(2, 1fr); }
+        }
     </style>
 </head>
 <body>
 
-    <section class="hero-section">
-        <img src="logo.png" alt="Doctor 11 Logo"> <h1>DOCTOR 11 PANJMAN</h1>
+<div class="container">
+    
+    <header>
+        <img src="logo.png" alt="Doctor 11 Logo">
+        <h1>DOCTOR 11 PANJMAN</h1>
         <p>Official Cricket Team | Panjman, Swabi</p>
+    </header>
+
+    <section class="announcement-banner">
+        <h2>📢 FINAL MATCH ANNOUNCEMENT</h2>
+        <span class="match-details">DOCTOR 11 PANJMAN vs QADRA</span>
+        <p>Prepare for the ultimate showdown! Support your team as we fight for the championship title.</p>
     </section>
 
-    <nav class="nav-bar">
-        <a href="#achievements">Achievements</a>
-        <a href="#squad">Squad</a>
-        <a href="#management">Management</a>
-        <a href="#announcements">Announcements</a>
-    </nav>
-
-    <div class="main-container">
-        
-        <h2 id="achievements" class="section-header">🏆 Achievements & Gallery</h2>
-        <div class="grid-layout">
-            <div class="card">
-                <img src="tournament_win.jpg" class="card-img" alt="Trophy">
-                <div class="card-content"><h3>Tournament Winners 2025</h3><p>Victory in the Panjman Championship</p></div>
+    <section>
+        <h2>🏆 ACHIEVEMENTS & GALLERY</h2>
+        <div class="achievement-grid">
+            <div class="card achievement-card champion-tag">
+                <img src="trophy1.png" alt="Boko Tournament">
+                <h3>CHAMPIONS 🏆</h3>
+                <p>Boko Tournament Winners</p>
             </div>
-            <div class="card">
-                <img src="finalists.jpg" class="card-img" alt="Finalists">
-                <div class="card-content"><h3>Finalists - Swabi Cup</h3><p>Runner up in the district tournament</p></div>
+            <div class="card achievement-card">
+                <img src="swabi_cup.png" alt="Runners Up">
+                <h3>RUNNERS UP</h3>
+                <p>Swabi Cup, Anbar Cup & Panjman Tournament</p>
             </div>
         </div>
+    </section>
 
-        <h2 id="management" class="section-header">👔 Management</h2>
-        <div class="grid-layout">
-            <div class="card" style="border-top: 5px solid gold;">
-                <div class="card-content">
-                    <h3>Dr. Tauseef Ahmed</h3>
-                    <p><strong>Team Owner & Chairman</strong></p>
-                </div>
+    <section>
+        <h2>🏏 2026 OFFICIAL SQUAD</h2>
+        <div class="grid">
+            <div class="card captain-card"><h3>Muneer Iqbal</h3><p>Captain</p></div>
+            <div class="card"><h3>Muhammad Amir</h3><p>Premium All-Rounder</p></div>
+            <div class="card"><h3>Huzaifa Ahmad</h3><p>Player</p></div>
+            <div class="card"><h3>Muhammad Hasnain</h3><p>Player</p></div>
+            <div class="card"><h3>Haris Iqbal</h3><p>Player</p></div>
+            <div class="card"><h3>Behram Khan</h3><p>Player</p></div>
+            <div class="card"><h3>Shakeel Ahmad</h3><p>Player</p></div>
+            <div class="card"><h3>Waqar Khan</h3><p>Player</p></div>
+            <div class="card"><h3>Saqib Shah</h3><p>Player</p></div>
+            <div class="card"><h3>Abubakar</h3><p>Player</p></div>
+            <div class="card"><h3>Shehbaz</h3><p>Player</p></div>
+            <div class="card"><h3>Azan Khan</h3><p>Player</p></div>
+            <div class="card"><h3>Baser Khan</h3><p>Player</p></div>
+            <div class="card"><h3>Sohail Ahmad</h3><p>Player</p></div>
+            <div class="card"><h3>Osama Khan</h3><p>Player</p></div>
+            <div class="card"><h3>Ihtisham Khan</h3><p>Player</p></div>
+        </div>
+    </section>
+
+    <section>
+        <h2>👔 MANAGEMENT</h2>
+        <div class="grid">
+            <div class="card owner-card">
+                <h3>Dr. Tauseef Ahmed</h3>
+                <p>Team Owner & Chairman</p>
             </div>
             <div class="card">
-                <div class="card-content">
-                    <h3>Muneer Iqbal</h3>
-                    <p><strong>Team Captain</strong></p>
-                </div>
-            </div>
-            <div class="card">
-                <div class="card-content">
-                    <h3>Samir Khan</h3>
-                    <p><strong>Media Director</strong></p>
-                </div>
+                <h3>Samir Khan</h3>
+                <p>Media Director</p>
             </div>
         </div>
+    </section>
 
-        <h2 id="squad" class="section-header">🏏 Official Squad</h2>
-        <div class="player-grid">
-            <div class="player-card"><h3>Muhammad Amir</h3><p>All-Rounder</p></div>
-            <div class="player-card"><h3>Muhammad Huzaifa</h3><p>Batsman</p></div>
-            <div class="player-card"><h3>Saqib Shah</h3><p>Bowler</p></div>
-            <div class="player-card"><h3>Adnan</h3><p>Batsman</p></div>
-            <div class="player-card"><h3>Sanan</h3><p>All-Rounder</p></div>
-            <div class="player-card"><h3>Mugheiz</h3><p>Batsman</p></div>
-            <div class="player-card"><h3>Hazrat Ali</h3><p>Batsman</p></div>
-        </div>
-
-    </div>
-
-    <a href="https://wa.me/92XXXXXXXXXX" class="whatsapp-btn">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" width="40" alt="WhatsApp">
-    </a>
+</div>
 
 </body>
 </html>
-<a href="https://www.youtube.com/@SH-Studio_Official" target="_blank">Subscribe to SH-Studio 🎙️</a>
-
-<a href="https://wa.me/923429212247">Chat on WhatsApp</a>
-
-<a href="mailto:asameerkhan352@gmail.com">Send an Email</a>
-
