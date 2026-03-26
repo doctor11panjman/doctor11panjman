@@ -290,7 +290,7 @@ function sendToWhatsApp() {
 
     // Open WhatsApp with the full details
     // Replace 923429212247 with your preferred number
-    window.open("https://wa.me/923429212247?text=" + message, '_blank');
+    window.open("https://wa.me/03449225324?text=" + message, '_blank');
 }
 </script>
 
