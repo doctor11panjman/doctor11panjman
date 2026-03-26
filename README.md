@@ -310,8 +310,11 @@
         </div>
 
         <span class="deadline-tag">آخری تاریخ : 28 مارچ 2026</span>
-        <button type="submit" class="submit-btn">Submit to Draft</button>
-    </form>
+        <a href="https://wa.me/03449225324?text=I%20want%20to%20register%20for%20PSL%202026.%20Name:%20" 
+   style="text-decoration:none;">
+   <button type="button" class="submit-btn">Submit via WhatsApp</button>
+</a>
+
 </div>
     </section>
 
