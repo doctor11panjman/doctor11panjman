@@ -240,80 +240,59 @@
         <p>Panjman Super League Official Entry Form</p>
     </div>
 
-    <form>
-        <div class="flex-row">
-            <div class="form-group">
-                <label>Name (نام)</label>
-                <input type="text" name="player_name" required>
-            </div>
-            <div class="form-group">
-                <label>F. Name (ولدیت)</label>
-                <input type="text" name="father_name" required>
-            </div>
-        </div>
+    <div class="psl-container">
+    <div class="psl-header">
+        <h2>PSL Draft Registration 2026</h2>
+    </div>
 
-        <div class="flex-row">
-            <div class="form-group">
-                <label>Contact No</label>
-                <input type="tel" name="phone" required>
-            </div>
-            <div class="form-group">
-                <label>WhatsApp No</label>
-                <input type="tel" name="whatsapp" required>
-            </div>
-        </div>
-
+    <form id="pslForm">
         <div class="form-group">
-            <label>Address (پتہ)</label>
-            <input type="text" name="address" required>
+            <label>Name (نام)</label>
+            <input type="text" id="p_name" required>
+        </div>
+        <div class="form-group">
+            <label>F. Name (ولدیت)</label>
+            <input type="text" id="f_name" required>
+        </div>
+        <div class="form-group">
+            <label>Contact No</label>
+            <input type="tel" id="p_contact" required>
+        </div>
+        <div class="form-group">
+            <label>Shirt No & Size</label>
+            <input type="text" id="p_shirt" placeholder="e.g. 07, Medium">
+        </div>
+        <div class="form-group">
+            <label>Role (Batsman/Bowler/All-rounder)</label>
+            <input type="text" id="p_role" required>
         </div>
 
-        <div class="flex-row">
-            <div class="form-group">
-                <label>Shirt No</label>
-                <input type="text" name="shirt_no">
-            </div>
-            <div class="form-group">
-                <label>Shirt Size</label>
-                <select name="shirt_size">
-                    <option>Small</option>
-                    <option selected>Medium</option>
-                    <option>Large</option>
-                    <option>XL</option>
-                </select>
-            </div>
-        </div>
+        <button type="button" onclick="sendToWhatsApp()" class="submit-btn">Send Details to WhatsApp</button>
+    </form>
+</div>
 
-        <div class="radio-group">
-            <label><strong>Playing Hand:</strong></label><br>
-            <label class="radio-option"><input type="radio" name="hand" value="Right" checked> Right Handed</label>
-            <label class="radio-option"><input type="radio" name="hand" value="Left"> Left Handed</label>
-        </div>
+<script>
+function sendToWhatsApp() {
+    // Get values from the form
+    var name = document.getElementById('p_name').value;
+    var fname = document.getElementById('f_name').value;
+    var contact = document.getElementById('p_contact').value;
+    var shirt = document.getElementById('p_shirt').value;
+    var role = document.getElementById('p_role').value;
 
-        <div class="radio-group">
-            <label><strong>Player Role:</strong></label><br>
-            <label class="radio-option"><input type="radio" name="role" value="Batsman"> Batsman</label>
-            <label class="radio-option"><input type="radio" name="role" value="Bowler"> Bowler</label>
-            <label class="radio-option"><input type="radio" name="role" value="All-Rounder" checked> All-Rounder</label>
-        </div>
+    // Build the WhatsApp Message
+    var message = "🏏 *PSL 2026 Registration*%0A%0A" + 
+                  "*Name:* " + name + "%0A" +
+                  "*Father Name:* " + fname + "%0A" +
+                  "*Contact:* " + contact + "%0A" +
+                  "*Shirt Info:* " + shirt + "%0A" +
+                  "*Role:* " + role;
 
-        <div class="urdu-section">
-            <h4>قوانین و ضوابط</h4>
-            <ul>
-                <li>ہر کھلاڑی ڈرافٹ کے ذریعے ٹیم کا حصہ بنے گا۔</li>
-                <li>ٹیم انٹری فیس 2,000 روپے ہے۔</li>
-                <li>فارم رجسٹریشن فیس 350 روپے (واپسی کے قابل اگر سلیکشن نہ ہوئی)۔</li>
-                <li>یونیفارم (شرٹ اور بوٹ) لازمی ہے۔</li>
-            </ul>
-            <p><strong>چیف آرگنائزر:</strong> محمود اقبال</p>
-            <p><strong>ایونٹ مینیجر:</strong> ڈاکٹر توصیف احمد</p>
-        </div>
-
-        <span class="deadline-tag">آخری تاریخ : 28 مارچ 2026</span>
-        <a href="https://wa.me/03449225324?text=I%20want%20to%20register%20for%20PSL%202026.%20Name:%20" 
-   style="text-decoration:none;">
-   <button type="button" class="submit-btn">Submit via WhatsApp</button>
-</a>
+    // Open WhatsApp with the full details
+    // Replace 923429212247 with your preferred number
+    window.open("https://wa.me/923429212247?text=" + message, '_blank');
+}
+</script>
 
 </div>
     </section>
